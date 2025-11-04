@@ -9,10 +9,13 @@ public class App {
         // declaração de varíaveis
         double a;
         double b;
+        double x;
+
+        // equação do 1ºgrau
         System.out.println("Cálculo da equação do 1º Grau ");
         System.out.println("A equação tem a forma ax + b = 0");
 
-        // entrada de dados
+        // calcule a equação do 1ºgrau
         System.out.println("Informe o valor de a: ");
         a = leia.nextDouble();
         System.out.println("Informe o valor de b: ");
@@ -22,7 +25,7 @@ public class App {
             System.out.println("Não é uma equação do 1ºGrau (a deve ser diferente de 0)");
         }
         else {
-            double x = -b / a;
+            x = -b / a;
             System.out.println("A raiz da equação é: x = " + x);
         }
         

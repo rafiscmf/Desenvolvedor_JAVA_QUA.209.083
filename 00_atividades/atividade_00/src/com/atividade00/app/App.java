@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        // instancia a Scanner
         Scanner leia = new Scanner(System.in);
 
         //declaracao de variaveis
@@ -25,7 +26,7 @@ public class App {
         System.out.println("Informe seu telefone: ");
         telefone = leia.nextLine();
 
-        // exibição de dados
+        // saída de dados
         System.out.println("Dados Cadastrados:");
         System.out.println("Nome: " + nome);
         System.out.println("Data de Nascimento: " + dataNascimento);
